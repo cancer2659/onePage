@@ -32,6 +32,7 @@ header nav ul li a{
     text-decoration: none;
     font-weight: normal;
     line-height: 8px;
+    text-transform: uppercase;
 }
 
 header nav ul li:hover a, header nav ul li.activate a {
@@ -47,77 +48,111 @@ h1{
     margin-bottom: 40px;
     color: black;
 }
+.we_design_block {
+    max-width: 1140px;
+    margin: auto;
+}
 .we_design_container p{
     line-height: 28px;
     font-size: 18px;
     color: #787878;
     margin-bottom: 40px;
 }
-.we_design_container button{
+.we_design_container .button{
     background-color: #10c9c3;
-    padding: 23px 43px;
+    padding: 23px 0;
+    max-width: 180px;
+    text-align: center;
     border: #10c9c3 1px solid;
 }
-.we_design_container button span {
+.we_design_container a span {
     text-transform: uppercase;
     color: white;
     font-size: 12px;
     display: block;
+    text-decoration: none;
 }
-.we_design_container button:hover {
+.we_design_container a{
+    text-decoration: none;
+}
+.we_design_container .button:hover {
     background-color: #787878;
     border: #787878 1px solid;
 }
-.section_1 .d-flex{
+.we_design .d-flex{
     display: flex;
     justify-content: flex-end;
 }
-.about_us_container{
-    padding: 64px 0 100px;
+.about_us_block{
+    padding: 64px 0 0;
     background-color: white;
 }
-.about_us_container div{
+.about_us_container {
     max-width: 620px;
     padding: 0 15px;
     margin: auto;
     text-align: center;
 }
-.about_us_container h2{
+.about_us_block h2{
     color: #191919;
     font-size: 30px;
     margin-bottom: 40px;
 }
-.about_us_container p {
+.about_us_block p {
     color: #787878;
     font-size: 16px;
     margin-bottom: 40px;
     line-height: 25px;
 }
-.section_3 .central-B{
+.about_us_block img{
+    margin-bottom: 100px;
+}
+.professional_skills{
     background-color: #e9e9e9;
+    width: 100%;
 }
-.section_3_block_left{
-    max-width: 680px;
+.professional_skills .block{
     background-color: #f8f9f9;
-    padding: 165px 85px;
+    max-width: 685px;
+    padding: 165px 80px 125px;
 }
-.section_3_block_left h3{
+.professional_skills h3{
     font-size: 30px;
     color: black;
+    margin-bottom: 40px;
 }
-.section_3_block_left div{
-    padding: 0 15px;
+.progress_bar_b{
+    width: 100%;
+}
+.professional_skills h4{
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .progress {
-    max-width: 300px;
+    background-color: #d8d8d8;
+    width: 100%;
     height: 3px;
-    background-color: green;
-    margin-top: 100px
+    margin-bottom: 40px;
 }
-.progress:before{
-    content:"";
+.UI_UX_Design_PB .progress:after {
+    content: "";
+    background-color: #10c9c3;
     display: block;
     width: 75%;
     height: 3px;
-    background-color: deeppink;
+}
+.web_development_PB .progress:after {
+    content: "";
+    background-color: #10c9c3;
+    display: block;
+    width: 90%;
+    height: 3px;
+}
+.marketing_PB .progress:after {
+    content: "";
+    background-color: #10c9c3;
+    display: block;
+    width: 65%;
+    height: 3px;
 }
