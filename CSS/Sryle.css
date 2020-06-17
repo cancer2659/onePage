@@ -162,9 +162,34 @@ h1{
     background-color: #10c9c3;
 }
 .our_benefits .container{
-    max-width: 1110px;
+    max-width: 1200px;
     margin: auto;
-    padding: 0 15px;
+}
+.our_benefits .container i{
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    margin-right: 29px;
+    vertical-align: center;
+}
+.benefits{
+    width: 230px;
+    margin: 0 33px;
+    display: inline-block;
+}
+.benefits span{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+.benefits p{
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+.benefits div{
+    display: inline-block;
 }
 .our_capabilities{
     background-color: #f5f5f5;
