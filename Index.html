@@ -6,11 +6,27 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
     <link rel="stylesheet" href="CSS/Sryle.css">
+
+    <link rel="stylesheet" href="css/media-queries.css">
+
 </head>
+<div id="dialog" title="Basic dialog">
+    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
 <body>
+<i class="fas fa-chevron-right"></i>
     <div class="main_screen">
         <header>
             <div class="container d-flex">
@@ -38,10 +54,10 @@
                             20 years of combined experience, and know a thing or two
                             about designing websites and mobile apps.
                         </p>
-                        <a href="#">
-                            <div class="button">
-                                <span>contact us</span>
-                            </div>
+                        <a id="opener">
+
+                                <span class="button">contact us</span>
+
                         </a>
                     </div>
                   </div>
@@ -110,6 +126,15 @@
                     </div>
                 </div>
             </section>
+            <section class="video">
+                <div class="container">
+                    <div class="player">
+                        <span class="fas fa-play"></span>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k4W1gXoXbf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+
             <section class="our_capabilities">
                 <div class="container">
                     <div class="capabilities">
@@ -171,5 +196,81 @@
                 </div>
             </section>
 
+    <section class="rew">
+        <div class="container">
+
+            <!-- Set up your HTML -->
+            <div class="owl-carousel">
+                <div> <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut dolor fuga illum laudantium minima molestias nesciunt sapiente? Eos est exercitationem expedita, hic ipsa itaque natus numquam quaerat sapiente sit?
+                </p> </div>
+                <div> <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut dolor fuga illum laudantium minima molestias nesciunt sapiente? Eos est exercitationem expedita, hic ipsa itaque natus numquam quaerat sapiente sit?
+                </p> </div>
+                <div> <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut dolor fuga illum laudantium minima molestias nesciunt sapiente? Eos est exercitationem expedita, hic ipsa itaque natus numquam quaerat sapiente sit?
+                </p> </div>
+                <div> <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut dolor fuga illum laudantium minima molestias nesciunt sapiente? Eos est exercitationem expedita, hic ipsa itaque natus numquam quaerat sapiente sit?
+                </p> </div>
+                <div> <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aut dolor fuga illum laudantium minima molestias nesciunt sapiente? Eos est exercitationem expedita, hic ipsa itaque natus numquam quaerat sapiente sit?
+                </p> </div>
+
+            </div>
+        </div>
+    </section>
+    <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+            <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+            <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+            </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+            <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+            </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+            <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+            </p>
+            <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+            </p>
+        </div>
+    </div>
 </body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/script.js"></script>
 </html>
