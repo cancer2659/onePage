@@ -22,8 +22,16 @@
     <link rel="stylesheet" href="css/media-queries.css">
 
 </head>
-<div id="dialog" title="Basic dialog">
-    <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+<div id="dialog" title="forgot your password?">
+    <form name="enter_your_mail" action="" method="post">
+        <div class="mail">
+            <label for="email">enter your email</label>
+            <input id="email" type="text"  name="email" placeholder="expample@gmail.com">
+        </div>
+        <button type="submit">Reset password</button>
+    </form>
+    <span>or</span>
+    <a href="#" class="log_in_FB"><i class="fab fa-facebook-f"></i> log in using facebook</a>
 </div>
 <body>
 <i class="fas fa-chevron-right"></i>
@@ -55,9 +63,7 @@
                             about designing websites and mobile apps.
                         </p>
                         <a id="opener">
-
-                                <span class="button">contact us</span>
-
+                            <span class="button">contact us</span>
                         </a>
                     </div>
                   </div>

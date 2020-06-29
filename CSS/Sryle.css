@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Medium.eot');
+    src: url('../fonts/Now-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Medium.woff2') format('woff2'),
+    url('../fonts/Now-Medium.woff') format('woff'),
+    url('../fonts/Now-Medium.ttf') format('truetype'),
+    url('../fonts/Now-Medium.svg#Now-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     margin: 0;
     padding: 0;
@@ -319,7 +331,7 @@ h1{
     position: absolute;
     right: 10px;
 }
-.ui-icon {
+.ui-accordion .ui-icon {
     width: 20px;
     height: 30px;
     background-image: none;
@@ -339,4 +351,85 @@ h1{
 }
 .ui-accordion-header.ui-state-hover .ui-icon{
     background: none;
+}
+
+
+.ui-dialog{
+    border: none !important;
+    width: 750px !important;
+    padding: 0 0 166px !important;
+    text-align: center;
+}
+.ui-dialog-titlebar{
+    padding: 40px 0 !important;
+    background-color: black;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.ui-dialog .ui-widget-header{
+    border: none;
+}
+.ui-dialog-titlebar span{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-transform:uppercase;
+    width: 100% !important;
+}
+.ui-dialog .ui-button{
+    position: absolute;
+    right: -30px;
+}
+#dialog span{
+    text-transform: uppercase;
+    margin: 0 auto 30px;
+    font-size: 24px;
+    display: block;
+}
+#dialog .log_in_FB{
+    display: block;
+    background-color: #557bcb;
+    width: 528px;
+    font-size: 24px;
+    padding: 21px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+}
+#dialog button{
+    display: block;
+    background-color: #d3d3d3;
+    font-size: 24px;
+    width: 528px;
+    padding: 21px 0;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 30px;
+    box-sizing: border-box;
+    border: none;
+}
+#dialog label{
+    width: 35%;
+    color: #363636;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Now';
+}
+#dialog input{
+    width: 65%;
+    height: 58px;
+}
+#dialog form{
+    max-width: 575px;
+    margin: 0 auto 30px;
+}
+#dialog .mail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
