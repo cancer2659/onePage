@@ -10,6 +10,18 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Bold.eot');
+    src: url('../fonts/Now-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Bold.woff2') format('woff2'),
+    url('../fonts/Now-Bold.woff') format('woff'),
+    url('../fonts/Now-Bold.ttf') format('truetype'),
+    url('../fonts/Now-Bold.svg#Now-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     margin: 0;
     padding: 0;
@@ -375,6 +387,10 @@ h1{
     text-align: center;
     text-transform:uppercase;
     width: 100% !important;
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 .ui-dialog .ui-button{
     position: absolute;
@@ -385,6 +401,10 @@ h1{
     margin: 0 auto 30px;
     font-size: 24px;
     display: block;
+    font-family: 'Now';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 #dialog .log_in_FB{
     display: block;
@@ -397,6 +417,10 @@ h1{
     text-transform: uppercase;
     text-align: center;
     margin: auto;
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 #dialog button{
     display: block;
@@ -409,6 +433,10 @@ h1{
     margin: 0 auto 30px;
     box-sizing: border-box;
     border: none;
+    font-family: 'Now';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 #dialog label{
     width: 35%;
@@ -418,6 +446,9 @@ h1{
     text-transform: uppercase;
     text-align: left;
     font-family: 'Now';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 #dialog input{
     width: 65%;
